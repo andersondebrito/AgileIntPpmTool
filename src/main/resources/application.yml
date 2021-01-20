@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: "${PPMTOOL_DEV_DATASOURCE_URL}"
+    username: "${ppmtool_user}"
+    password: "${ppmtool_password}"
+  jpa:
+    hibernate:
+      ddl-auto: create
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    database: mysql
+    show-sql: true
