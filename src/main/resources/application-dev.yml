@@ -1,11 +1,11 @@
 spring:
   datasource:
-    url: "${PPMTOOL_DEV_DATASOURCE_URL}"
-    username: "${ppmtool_user}"
-    password: "${ppmtool_password}"
+    url: "jdbc:mysql://localhost:3306/ppmtool"
+    username: "ppmtooladmin"
+    password: "yourpassword"
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
     database: mysql
     show-sql: true
