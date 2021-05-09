@@ -44,7 +44,7 @@ The application build tools to support the software development process – Tool
 
 ![Web 16](https://github.com/andersondebrito/agile-int-ppm-tool/blob/main/assets/project_dashboard_with_projects.png?raw=true)
 
-# Tecnologias utilizadas
+# Technologies
 ## Back end
 - Java
 - Spring Boot
@@ -55,40 +55,40 @@ The application build tools to support the software development process – Tool
 - HTML / CSS / JS / TypeScript
 - ReactJS
 
-## Implantação em produção
+## Deployment
 - Back End, Front End: Heroku
 - Banco de dados: Postgresql
 
-# Como executar o projeto
+# How to run the project
 
 ## Back end
-Pré-requisitos: Java 8
+Prerequisites: Java 8
 
 ```bash
-# clonar repositório
+# clone repository
 git clone https://github.com/andersondebrito/agile-int-ppm-tool.git
 
-# entrar na pasta do projeto back end
+# enter the project folder
 cd agile-int-ppm-tool
 
-# executar o projeto
+# run the project
 ./mvnw spring-boot:run
 ```
 
 ## Front end web
-Pré-requisitos: npm / yarn
+Prerequisites: npm / yarn
 
 ```bash
-# clonar repositório
+# clone repository
 git clone https://github.com/andersondebrito/agile-int-ppm-tool-front-end.git
 
-# entrar na pasta do projeto front end web
+# enter the project folder
 cd agile-int-ppm-tool-front-end
 
-# instalar dependências
+# install dependencies
 yarn install
 
-# executar o projeto
+# run the project
 yarn start
 ```
 
